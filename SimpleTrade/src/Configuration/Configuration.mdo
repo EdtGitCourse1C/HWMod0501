@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc7495ad-432e-4f59-8fab-94750b9a56d8">
+  <name>ПростаяТорговля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Простая торговля</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cd84adeb-60ef-4bc7-b819-604ae4ddb6b8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="cf5fb0da-9609-48ee-8eda-f312c60d20ae"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="43aa8a39-87ac-4263-8484-f2c53d22cb95"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c699049d-bfda-4031-a557-e6f83fbe159f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c14cabea-650d-477f-9c8e-f3eebf5bbaea"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1ccdeb33-db94-455e-9507-0427dc337f3d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b4de4336-314c-459a-8deb-e7693ca1ec0b"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>mpihota@yandex.ru</vendor>
+  <version>1.0.0.1</version>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="10b9378a-5510-473e-8091-72ddd12904f7">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
+  <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
+  <commonPictures>CommonPicture.Расчеты</commonPictures>
+  <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.Сервис</commonPictures>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.ЮридическийАдрес</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <enums>Enum.УчетнаяПолитика</enums>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.Остатки</reports>
+  <reports>Report.Продажи</reports>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
